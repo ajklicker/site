@@ -1,0 +1,60 @@
+baseurl         = "http://klicker.tech"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "klicker.tech"
+  subtitle    = "Computer Consultation"
+
+  cover       = "headerimage.jpg"
+  description = "Computer Consultation"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "ajklicker"
+  fbName = "fakeghost"
+  githubName = "klicker-tech"
+
+  logo = ""
+  orgName = "AK"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Austin Klicker"
+  authorAvatar = "Portrait.jpg"
+  authorLocation = "Ames, IA"
+  authorWebsite = "https://klicker-tech.github.io"
+  authorDescription = "I am a computer consultant, specializing in IoT, Networking and Security"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "About"
+  url = "/categories/About/"
+  weight = 100
+
+[[menu.main]]
+  name = "Lifestyle"
+  url = "/categories/food/"
+  weight = 99
+
+[[menu.main]]
+  name = "Partners"
+  url = "https://shallowbrooksoftware.com"
+  weight = 95
